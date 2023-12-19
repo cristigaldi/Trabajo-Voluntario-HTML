@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabaja con nosotros</title>
+    <link href="style.css" rel="stylesheet" >
+</head>
+<body>
+    <header>
+        <h1>POLYGLOT - Academia de idiomas </h1>
+        <nav class="navbar">
+            <div class="navegacion">
+                
+                <ol class="menu">
+                    <li><a href="Academia.html">Inicio</a></li>
+                    <li><a href="quienes.html">Qui&eacute;nes somos?</a></li>
+                    <li><a href="Productos-Servicios.html">Productos y Servicios</a></li>
+                    <li><a href="Contacta-con-nosotros.html">Contacto</a></li>
+                    <li><a href="Trabaja-con-nosotros.html">Trabaja con nosotros</a></li>
+                </ol>
+    
+        </div>
+        </nav>
+    </header>
+    <main>
+        <h2 id="Trabaja-con-nosotros">Trabaja con nosotros</h2>
+
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>DATOS PERSONALES</legend>
+                    <label><strong>Nombre</strong></label><br>
+                    <input type="text" name="nombre" id="nombre-" tabindex="1" size="40" placeholder="Nombre"
+                        maxlength="100" minlength="1" required><br><br>
+
+                    <label><strong>Apellidos</strong></label><br>
+                    <input type="text" name="apellido" id="apellido-" tabindex="1" size="40" placeholder="Apellido"
+                        maxlength="100" minlength="1" required><br><br>
+
+                    <label><strong>DNI</strong></label><br>
+                    <input type="text" name="dni" id="dni" tabindex="1" size="40" maxlength="100" minlength="1"
+                        required><br><br>
+
+                    <label><strong>Sexo</strong></label><br>
+                    <input type="radio" name="sexo" id="sexo_femenino" value="F">Femenino<br>
+                    <input type="radio" name="sexo" id="sexo_masculino" value="M">Masculino<br><br>
+
+                    <label><strong>Fecha de nacimiento</strong></label><br>
+                    <input type="date" name="fecha" id="fecha">
+
+                    <br><br>
+                    <label><strong>Nacionalidad</strong></label><br>
+                    <input type="text" name="nacionalidad" id="nacionalidad" tabindex="1" size="40" required><br><br>
+
+                    <label><strong>Codigo Postal</strong></label><br>
+                    <input type="text" name="codigopostal" id="codigopostal" tabindex="1" size="40" required>
+
+                    <br><br><label><strong>N&uacute;mero de tel&eacute;fono</strong></label><br>
+                    <input type="text" name="numero" id="numero-" tabindex="1" size="40"
+                        placeholder="Introduce tu n&uacute;mero..." required><br><br>
+
+                    <label><strong>Email</strong></label><br>
+                    <input type="text" name="email" id="email" tabindex="1" size="40" required>
+                </fieldset><br>
+
+                <fieldset>
+                    <legend>FORMACI&Oacute;N</legend>
+                    <label><strong>Titulaci&oacute;n</strong></label><br>
+                    <input type="text" name="titulacion" tabindex="1" id="titulacion" placeholder="Titulaci&oacute;n..."
+                        size="40">
+
+                    <select name="anio" id="anio_1">
+                        <option value disabled selected>A&ntilde;o de inicio</option>
+                        <option value="1958">1958</option>
+                        <option value="1959">1959</option>
+                        <option value="1960">1960</option>
+                        <option value="1961">1961</option>
+                        <option value="1962">1962</option>
+                        <option value="1963">1963</option>
+                        <option value="1964">1964</option>
+                        <option value="1965">1965</option>
+                        <option value="1966">1966</option>
+                        <option value="1967">1967</option>
+                        <option value="1968">1968</option>
+                        <option value="1969">1969</option>
+                        <option value="1970">1970</option>
+                        <option value="1971">1971</option>
+                        <option value="1972">1972</option>
+                        <option value="1973">1973</option>
+                        <option value="1974">1974</option>
+                        <option value="1975">1975</option>
+                        <option value="1976">1976</option>
+                        <option value="1977">1977</option>
+                        <option value="1978">1978</option>
+                        <option value="1979">1979</option>
+                        <option value="1980">1980</option>
+                        <option value="1981">1981</option>
+                        <option value="1982">1982</option>
+                        <option value="1983">1983</option>
+                        <option value="1984">1984</option>
+                        <option value="1985">1985</option>
+                        <option value="1986">1986</option>
+                        <option value="1987">1987</option>
+                        <option value="1988">1988</option>
+                        <option value="1989">1989</option>
+                        <option value="1990">1990</option>
+                        <option value="1991">1991</option>
+                        <option value="1992">1991</option>
+                        <option value="1993">1993</option>
+                        <option value="1994">1994</option>
+                        <option value="1995">1995</option>
+                        <option value="1996">1996</option>
+                        <option value="1997">1997</option>
+                        <option value="1998">1998</option>
+                        <option value="1999">1999</option>
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                        <option value="2003">2003</option>
+                        <option value="2004">2004</option>
+                    </select>
+
+                    <select name="anio" id="anio_anio">
+                        <option value disabled selected>A&ntilde;o de finalizaci&oacute;n</option>
+                        <option value="1958">1958</option>
+                        <option value="1959">1959</option>
+                        <option value="1960">1960</option>
+                        <option value="1961">1961</option>
+                        <option value="1962">1962</option>
+                        <option value="1963">1963</option>
+                        <option value="1964">1964</option>
+                        <option value="1965">1965</option>
+                        <option value="1966">1966</option>
+                        <option value="1967">1967</option>
+                        <option value="1968">1968</option>
+                        <option value="1969">1969</option>
+                        <option value="1970">1970</option>
+                        <option value="1971">1971</option>
+                        <option value="1972">1972</option>
+                        <option value="1973">1973</option>
+                        <option value="1974">1974</option>
+                        <option value="1975">1975</option>
+                        <option value="1976">1976</option>
+                        <option value="1977">1977</option>
+                        <option value="1978">1978</option>
+                        <option value="1979">1979</option>
+                        <option value="1980">1980</option>
+                        <option value="1981">1981</option>
+                        <option value="1982">1982</option>
+                        <option value="1983">1983</option>
+                        <option value="1984">1984</option>
+                        <option value="1985">1985</option>
+                        <option value="1986">1986</option>
+                        <option value="1987">1987</option>
+                        <option value="1988">1988</option>
+                        <option value="1989">1989</option>
+                        <option value="1990">1990</option>
+                        <option value="1991">1991</option>
+                        <option value="1992">1991</option>
+                        <option value="1993">1993</option>
+                        <option value="1994">1994</option>
+                        <option value="1995">1995</option>
+                        <option value="1996">1996</option>
+                        <option value="1997">1997</option>
+                        <option value="1998">1998</option>
+                        <option value="1999">1999</option>
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                        <option value="2003">2003</option>
+                        <option value="2004">2004</option>
+                    </select><br>
+                    <input type="file" name="titulo" id="titulo">
+
+                    <br><br><label><strong>Titulaci&oacute;n</strong></label><br>
+                    <input type="text" name="titulacion" tabindex="1" id="titulacion-"
+                        placeholder="Titulaci&oacute;n..." size="40">
+
+                    <select name="anio" id="anio_2">
+                        <option value disabled selected>A&ntilde;o de inicio</option>
+                        <option value="1958">1958</option>
+                        <option value="1959">1959</option>
+                        <option value="1960">1960</option>
+                        <option value="1961">1961</option>
+                        <option value="1962">1962</option>
+                        <option value="1963">1963</option>
+                        <option value="1964">1964</option>
+                        <option value="1965">1965</option>
+                        <option value="1966">1966</option>
+                        <option value="1967">1967</option>
+                        <option value="1968">1968</option>
+                        <option value="1969">1969</option>
+                        <option value="1970">1970</option>
+                        <option value="1971">1971</option>
+                        <option value="1972">1972</option>
+                        <option value="1973">1973</option>
+                        <option value="1974">1974</option>
+                        <option value="1975">1975</option>
+                        <option value="1976">1976</option>
+                        <option value="1977">1977</option>
+                        <option value="1978">1978</option>
+                        <option value="1979">1979</option>
+                        <option value="1980">1980</option>
+                        <option value="1981">1981</option>
+                        <option value="1982">1982</option>
+                        <option value="1983">1983</option>
+                        <option value="1984">1984</option>
+                        <option value="1985">1985</option>
+                        <option value="1986">1986</option>
+                        <option value="1987">1987</option>
+                        <option value="1988">1988</option>
+                        <option value="1989">1989</option>
+                        <option value="1990">1990</option>
+                        <option value="1991">1991</option>
+                        <option value="1992">1991</option>
+                        <option value="1993">1993</option>
+                        <option value="1994">1994</option>
+                        <option value="1995">1995</option>
+                        <option value="1996">1996</option>
+                        <option value="1997">1997</option>
+                        <option value="1998">1998</option>
+                        <option value="1999">1999</option>
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                        <option value="2003">2003</option>
+                        <option value="2004">2004</option>
+                    </select>
+
+                    <select name="anio" id="anio_3">
+                        <option value disabled selected>A&ntilde;o de finalizaci&oacute;n</option>
+                        <option value="1958">1958</option>
+                        <option value="1959">1959</option>
+                        <option value="1960">1960</option>
+                        <option value="1961">1961</option>
+                        <option value="1962">1962</option>
+                        <option value="1963">1963</option>
+                        <option value="1964">1964</option>
+                        <option value="1965">1965</option>
+                        <option value="1966">1966</option>
+                        <option value="1967">1967</option>
+                        <option value="1968">1968</option>
+                        <option value="1969">1969</option>
+                        <option value="1970">1970</option>
+                        <option value="1971">1971</option>
+                        <option value="1972">1972</option>
+                        <option value="1973">1973</option>
+                        <option value="1974">1974</option>
+                        <option value="1975">1975</option>
+                        <option value="1976">1976</option>
+                        <option value="1977">1977</option>
+                        <option value="1978">1978</option>
+                        <option value="1979">1979</option>
+                        <option value="1980">1980</option>
+                        <option value="1981">1981</option>
+                        <option value="1982">1982</option>
+                        <option value="1983">1983</option>
+                        <option value="1984">1984</option>
+                        <option value="1985">1985</option>
+                        <option value="1986">1986</option>
+                        <option value="1987">1987</option>
+                        <option value="1988">1988</option>
+                        <option value="1989">1989</option>
+                        <option value="1990">1990</option>
+                        <option value="1991">1991</option>
+                        <option value="1992">1991</option>
+                        <option value="1993">1993</option>
+                        <option value="1994">1994</option>
+                        <option value="1995">1995</option>
+                        <option value="1996">1996</option>
+                        <option value="1997">1997</option>
+                        <option value="1998">1998</option>
+                        <option value="1999">1999</option>
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                        <option value="2003">2003</option>
+                        <option value="2004">2004</option>
+                    </select><br>
+                    <input type="file" name="titulo" id="titulo_1">
+
+                </fieldset><br>
+                <fieldset>
+                    <legend>IDIOMAS</legend>
+                    <label><strong>Idioma</strong></label><br>
+                    <input type="text" name="idioma" id="idioma_1" placeholder="..."><br>
+                    <label>Hablado</label>
+                    <select name="idioma" id="idioma_2">
+                        <option value="seleccion" id="seleccion_1" disabled selected>Selecciona</option>
+                        <option value="Excelente">Excelente</option>
+                        <option value="Bien">Bien</option>
+                        <option value="Regular">Regular</option>
+                        <option value="Nada">Nada</option>
+                    </select><br>
+                    <label>Le&iacute;do</label>
+                    <select name="idioma" id="idioma_3">
+                        <option value="seleccion" id="seleccion_2" disabled selected>Selecciona</option>
+                        <option value="Excelente">Excelente</option>
+                        <option value="Bien">Bien</option>
+                        <option value="Regular">Regular</option>
+                        <option value="Nada">Nada</option>
+                    </select><br>
+
+                    <label>Escrito</label>
+                    <select name="idioma" id="idioma_4">
+                        <option value="seleccion" id="seleccion_3" disabled selected>Selecciona</option>
+                        <option value="Excelente">Excelente</option>
+                        <option value="Bien">Bien</option>
+                        <option value="Regular">Regular</option>
+                        <option value="Nada">Nada</option>
+
+                    </select><br><br>
+                    <label><strong>Idioma</strong></label><br>
+                    <input type="text" name="idioma" id="idioma_5" placeholder="..."><br>
+                    <label>Hablado</label>
+                    <select name="idioma" id="idioma_6">
+                        <option value="seleccion" id="seleccion_4" disabled selected>Selecciona</option>
+                        <option value="Excelente">Excelente</option>
+                        <option value="Bien">Bien</option>
+                        <option value="Regular">Regular</option>
+                        <option value="Nada">Nada</option>
+                    </select><br>
+                    <label>Le&iacute;do</label>
+                    <select name="idioma" id="idioma_7">
+                        <option value="seleccion" id="seleccion_5" disabled selected>Selecciona</option>
+                        <option value="Excelente">Excelente</option>
+                        <option value="Bien">Bien</option>
+                        <option value="Regular">Regular</option>
+                        <option value="Nada">Nada</option>
+                    </select><br>
+
+                    <label>Escrito</label>
+                    <select name="idioma" id="idioma_8">
+                        <option value="seleccion" id="seleccion-" disabled selected>Selecciona</option>
+                        <option value="Excelente">Excelente</option>
+                        <option value="Bien">Bien</option>
+                        <option value="Regular">Regular</option>
+                        <option value="Nada">Nada</option>
+
+                    </select>
+                </fieldset>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Reiniciar">
+            </form><br>
+            
+    </main>
+</body>
+</html>
