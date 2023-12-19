@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia de idiomas</title>
+    <link href="style.css" rel="stylesheet" >
+
+    
+</head>
+
+<body>
+    <header>
+        
+        <h1>POLYGLOT - Academia de idiomas </h1>
+        <nav class="navbar">
+
+            <div class="navegacion">
+                <ol class="menu">
+                    <li><a href="Academia.html">Inicio</a></li>
+                    <li><a href="quienes.html">Qui&eacute;nes somos?</a></li>
+                    <li><a href="Productos-Servicios.html">Productos y Servicios</a></li>
+                    <li><a href="Contacta-con-nosotros.html">Contacto</a></li>
+                    <li><a href="Trabaja-con-nosotros.html">Trabaja con nosotros</a></li>
+                </ol>
+            </div>
+
+        </nav>
+        
+    </header>
+    <hr>
+
+    <main>
+        <h2 id="inicio">Inicio</h2>
+        <div class="estilo">
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi molestias nulla, odio commodi nostrum
+                dolores eius officia delectus recusandae rem quae temporibus fugit aperiam pariatur beatae aut hic
+                voluptatum qui!
+                En esta academia se imparten cursos de idiomas orientada especialmente a ni&ntilde;os y adolescentes.
+                Adem&aacute;s, tambi&eacute;n se ofrecen cursos para prerparar los t&iacute;tulos de ingl&eacute;s:</p>
+            <div id="tabla-examenes">
+            <ul class="examenes">
+                <li>FIRST</li>
+                <li>IELTS</li>
+                <li>OXFORD</li>
+                <li>TOELF</li>
+            </ul>
+            </div>
+            <video width="600" height="350" controls preload="auto" poster="Video/Clase.png">
+                <source src="Video/Idiomas.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video
+
+            </video>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore rerum odit et laboriosam consequuntur
+                placeat. Similique modi esse architecto obcaecati fuga, maxime, qui repellendus asperiores laboriosam
+                eos quo impedit vel.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque doloribus voluptates soluta dolore commodi
+                atque provident beatae deleniti itaque? Tempora dignissimos culpa odit repellat pariatur minima dolores
+                rerum iure consequatur.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptas inventore iusto qui laboriosam
+                corrupti esse at reiciendis reprehenderit <mark>magnam recusandae error corporis, non consectetur natus
+                    ad quidem autem alias.</mark></p>
+            <p><u>Lorem ipsum dolor sit amet consectetur adipisicing elit. </u>Perferendis error alias exercitationem
+                reprehenderit, illo, rerum architecto numquam iure porro ipsam, repudiandae possimus mollitia quisquam
+                velit officiis voluptas dicta laudantium! Fugit.</p>
+        </div>
+ 
+    </main>
+    <footer>
+
+
+        <h3>Tambi&eacute;n puedes visitarnos en: </h3>
+        <figure>
+            <img src="IMG/insta.jpg" alt="Logo Instagram" width="60" height="40">
+            <figcaption>Instagram</figcaption>
+        </figure>
+        <figure>
+            <img src="IMG/tiktok.jpg" alt="Logo TikTok" width="60" height="40">
+            <figcaption>TikTok</figcaption>
+        </figure>
+
+
+    </footer>
+</body>
+
+</html>
