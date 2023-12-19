@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos y Servicios</title>
+    <link href="style.css" rel="stylesheet" >
+    
+</head>
+<body>
+
+    <header>
+        <h1>POLYGLOT - Academia de idiomas </h1>
+        <nav class="navbar">
+            <div class="navegacion">
+                
+                <ol class="menu">
+                    <li><a href="Academia.html">Inicio</a></li>
+                    <li><a href="quienes.html">Qui&eacute;nes somos?</a></li>
+                    <li><a href="Productos-Servicios.html">Productos y Servicios</a></li>
+                    <li><a href="Contacta-con-nosotros.html">Contacto</a></li>
+                    <li><a href="Trabaja-con-nosotros.html">Trabaja con nosotros</a></li>
+                </ol>
+    
+        </div>
+        </nav>
+        
+    </header>
+    
+    <main>
+
+    <h2 id="Productos-Servicios">Productos y Servicios</h2>
+            <img src="IMG/Clase.png" alt="Clase" width="300" height="200">
+
+        <div id="contenedor">
+            <div class="contenido">
+            <h3>Clases Generales</h3>
+            <img src="IMG/clase general.jpg" alt="ClaseGeneral" width="100" height="80">
+                <ul class="lista1">
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta vero provident dolorem magnam earum nesciunt omnis illum velit aliquam? Reprehenderit omnis nesciunt officia ipsa deleniti accusantium accusamus dignissimos minus provident! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eveniet nobis eos nihil a dolorem consequuntur iusto accusamus animi sed quam debitis quasi ab, eum laboriosam in enim. Ea, iusto?</li>
+                </ul>
+            </div>
+
+            <div class="contenido">
+                
+                <h3>Clases Online</h3>
+                <img src="IMG/online.png" alt="Clasesonline" width="100" height="80"> 
+                <ul class="lista2">
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta vero provident dolorem magnam earum nesciunt omnis illum velit aliquam? Reprehenderit omnis nesciunt officia ipsa deleniti accusantium accusamus dignissimos minus provident! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eveniet nobis eos nihil a dolorem consequuntur iusto accusamus animi sed quam debitis quasi ab, eum laboriosam in enim. Ea, iusto?</li>
+                </ul>
+            </div>
+
+            <div class="contenido">
+                <h3>Clases Inmersion</h3>
+                <img src="IMG/Inmersion.jpg" alt="inmersion" width="110" height="80">
+                <ul class="lista3">   
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta vero provident dolorem magnam earum nesciunt omnis illum velit aliquam? Reprehenderit omnis nesciunt officia ipsa deleniti accusantium accusamus dignissimos minus provident! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eveniet nobis eos nihil a dolorem consequuntur iusto accusamus animi sed quam debitis quasi ab, eum laboriosam in enim. Ea, iusto?</li>
+                </ul>    
+            </div>
+
+            <div class="contenido">
+                <h3>One to One</h3>
+                <img src="IMG/onetoone.png" alt="onetoone" width="100" height="80">
+                <ul class="lista4">
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta vero provident dolorem magnam earum nesciunt omnis illum velit aliquam? Reprehenderit omnis nesciunt officia ipsa deleniti accusantium accusamus dignissimos minus provident! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eveniet nobis eos nihil a dolorem consequuntur iusto accusamus animi sed quam debitis quasi ab, eum laboriosam in enim. Ea, iusto?</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <br><br>
+        <div>
+            <h3>Horarios Cursos 2024</h3>
+            <table class="center">
+                
+                <!--<colgroup>
+                    <col span="1" style="background-color: aqua;">
+                </colgroup> -->
+
+                <caption><strong>Ingl&eacute;s</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Nivel</th>
+                        <th>D&iacute;a</th>
+                        <th>Hora</th>
+                        <th>Duraci&oacute;n</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>A1</td>
+                        <td>Lunes y miercoles</td>
+                        <td>19:00</td>
+                        <td>2 horas</td>
+                    </tr>
+                    <tr>
+                        <td>A2</td>
+                        <td>Lunes y miercoles</td>
+                        <td>20:00</td>
+                        <td>1 hora</td>
+                    </tr>
+                    <tr>
+                        <td>B1</td>
+                        <td>Martes y jueves</td>
+                        <td>19:00</td>
+                        <td>2 hora</td>
+                    </tr>
+                    <tr>
+
+                        <td>B2</td>
+                        <td>Martes y jueves</td>
+                        <td>20:00</td>
+                        <td>1 horas</td>
+                    </tr>
+                </tbody>
+            </table><br>
+
+            <table>
+                <caption><strong>Franc&eacute;s</strong></caption>
+
+                <thead>
+                    <tr>
+                        <th>Nivel</th>
+                        <th>D&iacute;a</th>
+                        <th>Hora</th>
+                        <th>Duraci&oacute;n</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+
+                        <td>A1</td>
+                        <td>Lunes y miercoles</td>
+                        <td>18:00</td>
+                        <td>1 hora</td>
+                    </tr>
+                    <tr>
+
+                        <td>A2</td>
+                        <td>Lunes y miercoles</td>
+                        <td>17:00</td>
+                        <td>1 hora</td>
+                    </tr>
+                </tbody>
+
+            </table><br>
+
+            <table>
+                <caption><strong>Alem&aacute;n</strong></caption>
+                <thead>
+                    <tr>
+                    <th>Nivel</th>
+                    <th>D&iacute;a</th>
+                    <th>Hora</th>
+                    <th>Duraci&oacute;n</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td>A1</td>
+                        <td>Martes y viernes</td>
+                        <td>17:00</td>
+                        <td>1 hora</td>
+                    </tr>
+
+                    <tr>
+                        <td>A2</td>
+                        <td>Martes y Miercoles</td>
+                        <td>18:00</td>
+                        <td>1 hora y 30 minutos </td>
+                    </tr>
+                </tbody>
+            </table><br>
+            <table>
+                <caption><strong>Chino</strong></caption>
+                <thead>
+                    <tr>
+                    <th>Nivel</th>
+                    <th>D&iacute;a</th>
+                    <th>Hora</th>
+                    <th>Duraci&oacute;n</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>A1</td>
+                    <td>S&aacute;bados</td>
+                    <td>10:00</td>
+                    <td>2 horas</td>
+                </tr>
+                </tbody>
+            </table> <br> <br>
+        </div>
+    </main>
+</body>
+</html>
