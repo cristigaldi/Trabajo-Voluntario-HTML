@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacta con nosotros</title>
+    <link href="style.css" rel="stylesheet" >
+</head>
+<body>
+    <header>
+        <h1>POLYGLOT - Academia de idiomas </h1>
+        
+            <nav class="navbar">
+                <div class="navegacion">
+                    
+                    <ol class="menu">
+                        <li><a href="Academia.html">Inicio</a></li>
+                        <li><a href="quienes.html">Qui&eacute;nes somos?</a></li>
+                        <li><a href="Productos-Servicios.html">Productos y Servicios</a></li>
+                        <li><a href="Contacta-con-nosotros.html">Contacto</a></li>
+                        <li><a href="Trabaja-con-nosotros.html">Trabaja con nosotros</a></li>
+                    </ol>
+        
+            </div>
+            </nav>
+
+    </header>
+    <main>
+        <h2 id="contacta-con-nosotros">Contacta con nosotros</h2>
+
+            <form action="#" method="get">
+                <label>Solicitud de informaci&oacute;n</label><br>
+                <label><strong>Nombre</strong></label><br>
+                <input type="text" name="nombre" id="nombre" tabindex="1" size="40" placeholder="Introduce tu nombre..."
+                    maxlength="100" minlength="1" required><br><br>
+
+                <label><strong>Apellidos</strong></label><br>
+                <input type="text" name="apellido" id="apellido" tabindex="1" size="40"
+                    placeholder="Introduce tus apellidos..." maxlength="100" minlength="1" required><br><br>
+
+                <label><strong>N&uacute;mero de tel&eacute;fono</strong></label><br>
+                <input type="text" name="numero" id="numero" tabindex="1" size="40"
+                    placeholder="Introduce tu n&uacute;mero..." required><br><br>
+
+                <label><strong>Correo electr&oacute;nico</strong></label><br>
+                <input type="text" name="correo" id="correo" tabindex="1" size="40" placeholder="Introduce tu email..."
+                    maxlength="100" minlength="1" required><br><br>
+
+                <textarea placeholder="Como podemos ayudarte" cols="40" rows="20" maxlength="250"></textarea><br>
+                <input type="submit" value="Enviar">
+
+            </form>
+    </main>
+
+</body>
+</html>
