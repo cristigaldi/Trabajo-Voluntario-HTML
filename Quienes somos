@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quienes somos</title>
+    <link href="style.css" rel="stylesheet" >
+
+</head>
+<body>
+    <h1>POLYGLOT - Academia de idiomas </h1>
+    <nav class="navbar">
+        <div class="navegacion">
+            
+            <ol class="menu">
+                <li><a href="Academia.html">Inicio</a></li>
+                <li><a href="quienes.html">Qui&eacute;nes somos?</a></li>
+                <li><a href="Productos-Servicios.html">Productos y Servicios</a></li>
+                <li><a href="Contacta-con-nosotros.html">Contacto</a></li>
+                <li><a href="Trabaja-con-nosotros.html">Trabaja con nosotros</a></li>
+            </ol>
+
+    </div>
+    </nav>
+    </header>
+
+    <main>
+    <h2 id="Quienes-somos">Qui&eacute;nes somos?</h2>
+    <div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus reiciendis cupiditate quam ex minima
+            vitae quidem, alias quos hic eaque sequi maiores nesciunt dolorum recusandae, dolore debitis nisi,
+            aliquid aspernatur?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In rerum debitis fugit omnis, animi cum
+            laudantium necessitatibus quae rem eum mollitia excepturi iure sint ut quo, tenetur molestias ex. Nisi.
+        </p>
+        <pre>Peque&ntilde;a empresa dedicada a la ense&ntilde;anza y refuerzo de idiomas.
+Academia que cuenta con los mejores profesores nativos, los cu&aacute;les 
+durante las clases no hablan nada mas que el idioma que est&aacute;n impartiendo.</pre>
+        <p><u>Contamos con un total de 4 profesores:</u></p>
+
+        <ul>
+            <li>Shianne - Ingl&eacute;s</li>
+            <li>Flora - Franc&eacute;s</li>
+            <li>Hanna - Alem&aacute;n</li>
+            <li>Shasha - Chino</li> 
+
+    
+            
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
