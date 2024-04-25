@@ -4,53 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacta con nosotros</title>
-    <link href="style.css" rel="stylesheet" >
+    <link href="../CSS/style.css" rel="stylesheet" >
+    <link href="../CSS/contacta.css" rel="stylesheet" >
 </head>
 <body>
     <header>
-        <h1>POLYGLOT - Academia de idiomas </h1>
-        
-            <nav class="navbar">
-                <div class="navegacion">
-                    
-                    <ol class="menu">
-                        <li><a href="Academia.html">Inicio</a></li>
-                        <li><a href="quienes.html">Qui&eacute;nes somos?</a></li>
-                        <li><a href="Productos-Servicios.html">Productos y Servicios</a></li>
-                        <li><a href="Contacta-con-nosotros.html">Contacto</a></li>
-                        <li><a href="Trabaja-con-nosotros.html">Trabaja con nosotros</a></li>
-                    </ol>
-        
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fa-solid fa-font-awesome"></i>
+                <a href="Index.html">POLYGLOT</a>
             </div>
-            </nav>
+            <div class="menu"></div>
+            <div class="menu-links">
+                <a href="Index.html">Inicio</a>
+                <a href="quienes.html">Qui&eacute;nes somos</a>
+                <a href="Productos-Servicios.html">Productos y Servicios</a>
+                <a href="Contacta-con-nosotros.html">Contacto</a>
+                <a href="Trabaja-con-nosotros.html">Trabaja con nosotros</a>
+                
+            </div>
+        </nav>
+        
 
     </header>
     <main>
-        <h2 id="contacta-con-nosotros">Contacta con nosotros</h2>
+            
+        <br> <h2>Contacta con Polyglot<br> </h2>
+            <h5>Por favor, rellena este formulario y nos pondremos en contacto contigo lo antes posible. Gracias</h5><br>
+            
+            
+            <form action="#" method="get" class="caja_contacta">
+                
+                <div class="input">
+                    <input type="text" name="nombre." class="nombre" tabindex="1" size="40" 
+                    maxlength="100" minlength="1" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Nombre</label>
+                  </div><br>
+                  
+                <div class="input">
+                    <input type="text" name="apellido" class="apellido" tabindex="1" size="40"
+                    maxlength="100" minlength="1" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Apellidos</label>
+                </div><br>
+            
+                <div class="input">
+                    <input type="text" name="numero" class="numero" tabindex="1" size="40"
+                    maxlength="100" minlength="1" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>N&uacute;mero de tel&eacute;fono</label><br>
+                </div>
 
-            <form action="#" method="get">
-                <label>Solicitud de informaci&oacute;n</label><br>
-                <label><strong>Nombre</strong></label><br>
-                <input type="text" name="nombre" id="nombre" tabindex="1" size="40" placeholder="Introduce tu nombre..."
-                    maxlength="100" minlength="1" required><br><br>
+                <div class="input">
+                    <input type="text" name="email" class="email" tabindex="1" size="40"
+                    maxlength="100" minlength="1" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Correo electr&oacute;nico</label>
+                </div><br><br>
+                
 
-                <label><strong>Apellidos</strong></label><br>
-                <input type="text" name="apellido" id="apellido" tabindex="1" size="40"
-                    placeholder="Introduce tus apellidos..." maxlength="100" minlength="1" required><br><br>
-
-                <label><strong>N&uacute;mero de tel&eacute;fono</strong></label><br>
-                <input type="text" name="numero" id="numero" tabindex="1" size="40"
-                    placeholder="Introduce tu n&uacute;mero..." required><br><br>
-
-                <label><strong>Correo electr&oacute;nico</strong></label><br>
-                <input type="text" name="correo" id="correo" tabindex="1" size="40" placeholder="Introduce tu email..."
-                    maxlength="100" minlength="1" required><br><br>
-
-                <textarea placeholder="Como podemos ayudarte" cols="40" rows="20" maxlength="250"></textarea><br>
-                <input type="submit" value="Enviar">
-
+                <textarea class="cajatexto" placeholder="Como podemos ayudarte..." cols="60" rows="10" maxlength="250"></textarea><br>
+               
+                <button type="submit" value="Enviar"> Enviar </button>
+            
             </form>
+        
+      
     </main>
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-section">
+                <div class="footer-media">
+                    <h4>Tambi&eacute;n puedes visitarnos en: </h4>
+                    <div class="social-icons">
+                        <figure>
+                            <img src="IMG/Instagram.png" alt="Logo Instagram" width="70" height="50">
+                            <figcaption>Instagram</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="IMG/tiktok.png" alt="Logo TikTok" width="70" height="60">
+                            <figcaption>TikTok</figcaption>
+                        </figure>
+                    </div>
+                </div>
 
-</body>
+                <nav class="footer-nav">
+
+                    <div>
+                        <h4>POLYGLOT</h4>
+                        <ul>
+                            <li><a href="#">Aviso Legal</a></li>
+                            <li><a href="#"> Politica de Privacidad</a></li>
+                            <li><a href="#"> Politica de Cookies</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+
+
+                <div class="footer-copyright">
+                    <p>©2024 POLYGLOT.SL</p>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+</body> 
 </html>
