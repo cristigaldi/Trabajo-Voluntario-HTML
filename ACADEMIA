@@ -1,59 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Academia de idiomas</title>
-    <link href="style.css" rel="stylesheet" >
+    <link href="CSS/style.css" rel="stylesheet" >
 
     
 </head>
 
 <body>
     <header>
-        
-        <h1>POLYGLOT - Academia de idiomas </h1>
         <nav class="navbar">
-
-            <div class="navegacion">
-                <ol class="menu">
-                    <li><a href="Academia.html">Inicio</a></li>
-                    <li><a href="quienes.html">Qui&eacute;nes somos?</a></li>
-                    <li><a href="Productos-Servicios.html">Productos y Servicios</a></li>
-                    <li><a href="Contacta-con-nosotros.html">Contacto</a></li>
-                    <li><a href="Trabaja-con-nosotros.html">Trabaja con nosotros</a></li>
-                </ol>
+            <div class="logo">
+                
+                <i class="fa-solid fa-font-awesome"></i>
+                <a href="#">POLYGLOT</a>
             </div>
-
+            <div class="menu"></div>
+            <div class="menu-links">
+                    <a href="Index.html">Inicio</a>
+                    <a href="quienes.html">Qui&eacute;nes somos</a>
+                    <a href="Productos-Servicios.html">Productos y Servicios</a>
+                    <a href="Contacta-con-nosotros.html">Contacto</a>
+                    <a href="Trabaja-con-nosotros.html">Trabaja con nosotros</a>
+                
+            </div>
         </nav>
         
+
     </header>
     <hr>
 
     <main>
-        <h2 id="inicio">Inicio</h2>
-        <div class="estilo">
+        
+        <div class="container">
+            <h2>Inicio</h2>
 
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi molestias nulla, odio commodi nostrum
                 dolores eius officia delectus recusandae rem quae temporibus fugit aperiam pariatur beatae aut hic
                 voluptatum qui!
                 En esta academia se imparten cursos de idiomas orientada especialmente a ni&ntilde;os y adolescentes.
-                Adem&aacute;s, tambi&eacute;n se ofrecen cursos para prerparar los t&iacute;tulos de ingl&eacute;s:</p>
-            <div id="tabla-examenes">
-            <ul class="examenes">
-                <li>FIRST</li>
-                <li>IELTS</li>
-                <li>OXFORD</li>
-                <li>TOELF</li>
+                Adem&aacute;s, tambi&eacute;n se ofrecen cursos para preparar los t&iacute;tulos de ingl&eacute;s:</p>
+            
+            <ul >
+                <li><i>FIRST</i></li>
+                <li><i>IELTS</i></li>
+                <li><i>OXFORD</i></li>
+                <li><i>TOELF</i></li>
             </ul>
-            </div>
-            <video width="600" height="350" controls preload="auto" poster="Video/Clase.png">
+
+            <div class="video">
+            <video width="450" height="350" controls preload="auto" poster="Video/Clase.png">
                 <source src="Video/Idiomas.mp4" type="video/mp4">
                 Tu navegador no soporta el elemento de video
-
             </video>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore rerum odit et laboriosam consequuntur
+            </div>
+            
+            <br><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore rerum odit et laboriosam consequuntur
                 placeat. Similique modi esse architecto obcaecati fuga, maxime, qui repellendus asperiores laboriosam
                 eos quo impedit vel.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque doloribus voluptates soluta dolore commodi
@@ -61,26 +66,51 @@
                 rerum iure consequatur.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptas inventore iusto qui laboriosam
                 corrupti esse at reiciendis reprehenderit <mark>magnam recusandae error corporis, non consectetur natus
-                    ad quidem autem alias.</mark></p>
-            <p><u>Lorem ipsum dolor sit amet consectetur adipisicing elit. </u>Perferendis error alias exercitationem
+                ad quidem autem alias.</mark></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Perferendis error alias exercitationem
                 reprehenderit, illo, rerum architecto numquam iure porro ipsam, repudiandae possimus mollitia quisquam
                 velit officiis voluptas dicta laudantium! Fugit.</p>
+                     
         </div>
  
     </main>
     <footer>
+        <div class="footer-wrapper">
+            <div class="footer-section">
+                <div class="footer-media">
+                    <h4>Tambi&eacute;n puedes visitarnos en: </h4>
+                    <div class="social-icons">
+                        <figure>
+                            <img src="IMG/Instagram.png" alt="Logo Instagram" width="70" height="50">
+                            <figcaption>Instagram</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="IMG/tiktok.png" alt="Logo TikTok" width="70" height="60">
+                            <figcaption>TikTok</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <nav class="footer-nav">
+
+                    <div>
+                        <h4>POLYGLOT</h4>
+                        <ul>
+                            <li><a href="#">Aviso Legal</a></li>
+                            <li><a href="#"> Politica de Privacidad</a></li>
+                            <li><a href="#"> Politica de Cookies</a></li>
+                        </ul>
+                    </div>
+                </nav>
 
 
-        <h3>Tambi&eacute;n puedes visitarnos en: </h3>
-        <figure>
-            <img src="IMG/insta.jpg" alt="Logo Instagram" width="60" height="40">
-            <figcaption>Instagram</figcaption>
-        </figure>
-        <figure>
-            <img src="IMG/tiktok.jpg" alt="Logo TikTok" width="60" height="40">
-            <figcaption>TikTok</figcaption>
-        </figure>
 
+                <div class="footer-copyright">
+                    <p>©2024 POLYGLOT.SL</p>
+                </div>
+
+            </div>
+        </div>
 
     </footer>
 </body>
