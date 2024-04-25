@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,100;1,200;1,500;1,700;1,800&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+   color: #000000;
+   text-align: justify;
+}
+
+
+:root {
+   font-size: 13px;
+   /* Tamaño base */
+   --form-width: 500px
+}
+
+h1 {
+   font-size: 2rem;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   background-color: rgba(168, 255, 226, 0.813);
+   text-align: center;
+
+}
+
+h2 {
+   font-size: 2rem;
+   color: rgb(0, 125, 83);
+   text-align: center;
+}
+
+h3 {
+   font-size: 2rem;
+   background-color: rgba(168, 255, 226, 0.813);
+   text-align: center;
+}
+
+h5 {
+   text-align: center;
+   font-size: 1em;
+}
+
+body {
+   background-color: #fbf4f4;
+
+
+}
+
+.container {
+   width: auto;
+   height: auto;
+   background: #fbf4f4;
+   margin-top: 20px;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+
+}
+
+main {
+   font-family: 'Poppins', sans-serif;
+   background-color: #fbf4f4;
+   margin-top: 20px;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+}
+
+
+table {
+   width: 60%;
+}
+
+table,
+th tr,
+td {
+   border: 1px solid black;
+   border-collapse: collapse;
+   text-align: center;
+}
+
+th {
+   background-color: lightskyblue;
+   color: aliceblue;
+}
+
+
+/*CABECERA*/
+
+::before::after {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   background-color: #fbf4f4;
+   font-family: "Ubuntu", sans-serif;
+}
+
+a {
+   text-decoration: none;
+}
+
+.navbar {
+   height: 90px;
+   background-color: #206336d3;
+   ;
+   padding: 20px 40px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.navbar .logo i {
+   color: #3e6dec;
+   font-size: 22px;
+}
+
+.navbar .logo a {
+   font-size: 24px;
+   font-weight: 700;
+   color: #ffee00;
+   margin-left: 12px;
+
+}
+
+.menu {
+   display: flex;
+   align-items: center;
+   gap: 32px;
+
+}
+
+.menu-links {
+   display: flex;
+   gap: 24px;
+   padding-inline: 24px;
+}
+
+.menu-links a {
+   font-weight: 500;
+   color: #c6fff5;
+   padding: 8px;
+}
+
+.menu-links a:hover {
+   color: #d0c8e8
+}
+
+footer {
+   width: 100%;
+   background-color: #206336d3;
+
+}
+
+
+
+a {
+   cursor: pointer;
+}
+
+footer {
+
+   padding: 3.5rem;
+   clear: (3rem, 6vw, 14rem);
+
+}
+
+.footer-wapper {
+   max-width: 90rem;
+   margin: 0 auto;
+}
+
+.footer-section {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 3rem;
+
+}
+
+.footer-media>h4 {
+   font-size: 1rem;
+   color: #c6fff5;
+}
+
+.social-icons {
+   display: flex;
+   align-items: center;
+}
+
+.social-icons figure {
+   margin-right: 30px;
+   /* Ajusta el espacio entre los íconos */
+}
+
+
+.input-box {
+   display: flex;
+   max-width: 100%;
+   padding-block: 1rem;
+   border-bottom: 1px solid black;
+   margin-top: 3rem;
+
+}
+
+.input-box>input {
+   flex-grow: 1;
+}
+
+.footer-nav {
+
+   display: flex;
+   flex-wrap: wrap;
+   gap: clamp(2rem, 4vw, 7rem);
+}
+
+.footer-nav>div>h4 {
+   font-size: 1rem;
+   color: #c6fff5;
+}
+
+.footer-nav>div>ul {
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+   margin-top: 1rem;
+
+}
+
+.footer-nav>div li {
+   font-size: 1rem;
+   font-weight: 700;
+
+}
+
+.footer-copyright {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.footer-media figcaption,
+.footer-nav li a,
+.footer-copyright p {
+   color: #c6fff5;
+}
+
+/*incio*/
+
+.video { 
+   padding: 0; 
+   margin: 0; 
+   display: flex; 
+   justify-content: center;
+}
+
+
+

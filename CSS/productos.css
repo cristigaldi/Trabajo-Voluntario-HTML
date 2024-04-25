@@ -1,0 +1,87 @@
+
+
+/*Productos y servicios*/
+
+/*productos*/
+#productos {
+    color: rgb(23, 217, 152);
+    text-align: center;
+ }
+ 
+ /*Tarjetas - Lista de Clases Generales, Clases Online, inmersion, one to one*/
+ 
+ .tarjetas {
+    display: flex;
+    width: 100%;
+ }
+ 
+ .tarjeta {
+    width: 50%;
+    min-width: 50px;
+    height: 250px;
+    position: relative;
+    margin: 20px;
+    perspective: 1000px;
+ }
+ 
+ .tarjeta div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(23, 217, 152);
+    justify-content: center;
+    align-items: top;
+    backface-visibility: hidden;
+    transition: 1s;
+ }
+ 
+ .tarjeta .cara-frontalgeneral {
+    background-image: url('/IMG/claselineas.jpg');
+    background-size: cover;
+    background-position: center;
+    transform: perspective(500px) rotateY(0deg);
+ }
+ 
+ .tarjeta .cara-frontalonline {
+    background-image: url('/IMG/claseonline.jpg');
+    background-size: cover;
+    background-position: center;
+    transform: perspective(500px) rotateY(0deg);
+ }
+ 
+ .tarjeta .cara-frontalinmersion {
+    background-image: url('/IMG/Inmersion.jpg');
+    background-size: cover;
+    background-position: center;
+    transform: perspective(500px) rotateY(0deg);
+ }
+ 
+ .tarjeta .cara-frontalonetoone {
+    background-image: url('/IMG/onetoone.jpg');
+    background-size: cover;
+    background-position: center;
+    transform: perspective(500px) rotateY(0deg);
+ }
+ 
+ .tarjeta .cara-trasera {
+    transform: rotateY(180deg);
+    background-color: #69d1c0;
+    text-align: center;
+ }
+ 
+ .tarjeta:hover .cara-frontalgeneral,
+ .tarjeta:hover .cara-frontalonline,
+ .tarjeta:hover .cara-frontalinmersion,
+ .tarjeta:hover .cara-frontalonetoone {
+    transform: perspective(500px) rotateY(180deg);
+ }
+ 
+ .tarjeta:hover .cara-trasera {
+    transform: perspective(500px) rotateY(360deg);
+ }
+ 
+ .tarjeta div h3 {
+    font-size: 10px;
+    color: rgb(25, 20, 90)
+ }
+ 

@@ -1,0 +1,104 @@
+/*Tabaja con nosotros*/
+
+h3 {
+   margin-top: 80%;
+}
+ 
+/* Estilo para el contenedor principal */
+.container {
+   display: flex;
+}
+
+/* Estilos para el contenido */
+.contenido {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   max-width: 1200px;
+}
+
+
+/* Estilos para el formulario */
+.formulario {
+   flex: 1;
+   padding: 0 20px;
+}
+
+.trabajaformulario {
+   flex: 1;
+   padding: 0 20px;
+}
+
+main {
+   display: flex;
+}
+
+aside {
+   width: 250px;
+   padding: 0 20px;
+}
+
+.oferta {
+   margin-top: 20px;
+   margin-bottom: 30px;
+
+}
+
+/* Beneficios lista */
+ul {
+   margin-top: 10px;
+   margin-bottom: 15px;
+   list-style: none;
+   padding-left: 10px;
+}
+
+ul li {
+   position: relative;
+   padding-left: 30px;
+}
+
+ul li:before {
+   content: "•";
+   position: absolute;
+   left: 0;
+   color: rgb(0, 125, 83);
+   font-size: 20px;
+}
+
+.formulario {
+   flex: 1;
+   padding: 0 20px;
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.campo {
+   background-color: rgba(168, 255, 226, 0.429);
+   width: 80%;
+   margin-bottom: 20px;
+}
+
+.campo label {
+   display: block;
+   /* Para que la etiqueta esté en una línea separada */
+}
+
+.campo input {
+   width: 50%;
+   /* El ancho de entrada se ajusta al contenedor */
+}
+
+.botones {
+   margin-top: 50px;
+   margin-bottom: 50px;
+   margin: 15px;
+}
+
+.formulario1 {
+   margin-left: 20px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+
+}
