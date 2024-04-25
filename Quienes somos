@@ -1,53 +1,147 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quienes somos</title>
-    <link href="style.css" rel="stylesheet" >
+    <link href="../CSS/style.css" rel="stylesheet">
+    <link href="../CSS/quienes.css" rel="stylesheet">
 
 </head>
-<body>
-    <h1>POLYGLOT - Academia de idiomas </h1>
-    <nav class="navbar">
-        <div class="navegacion">
-            
-            <ol class="menu">
-                <li><a href="Academia.html">Inicio</a></li>
-                <li><a href="quienes.html">Qui&eacute;nes somos?</a></li>
-                <li><a href="Productos-Servicios.html">Productos y Servicios</a></li>
-                <li><a href="Contacta-con-nosotros.html">Contacto</a></li>
-                <li><a href="Trabaja-con-nosotros.html">Trabaja con nosotros</a></li>
-            </ol>
 
-    </div>
-    </nav>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fa-solid fa-font-awesome"></i>
+                <a href="Index.html">POLYGLOT</a>
+            </div>
+            <div class="menu"></div>
+            <div class="menu-links">
+                <a href="Index.html">Inicio</a>
+                <a href="quienes.html">Qui&eacute;nes somos</a>
+                <a href="Productos-Servicios.html">Productos y Servicios</a>
+                <a href="Contacta-con-nosotros.html">Contacto</a>
+                <a href="Trabaja-con-nosotros.html">Trabaja con nosotros</a>
+
+            </div>
+        </nav>
+
     </header>
 
     <main>
-    <h2 id="Quienes-somos">Qui&eacute;nes somos?</h2>
-    <div>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus reiciendis cupiditate quam ex minima
-            vitae quidem, alias quos hic eaque sequi maiores nesciunt dolorum recusandae, dolore debitis nisi,
-            aliquid aspernatur?</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In rerum debitis fugit omnis, animi cum
-            laudantium necessitatibus quae rem eum mollitia excepturi iure sint ut quo, tenetur molestias ex. Nisi.
-        </p>
-        <pre>Peque&ntilde;a empresa dedicada a la ense&ntilde;anza y refuerzo de idiomas.
-Academia que cuenta con los mejores profesores nativos, los cu&aacute;les 
-durante las clases no hablan nada mas que el idioma que est&aacute;n impartiendo.</pre>
-        <p><u>Contamos con un total de 4 profesores:</u></p>
+        <br>
+        <h2 id="titulo_quienes-somos">Qui&eacute;nes somos</h2><br>
+        <div class="container">
+                <div class="column1">
+                    <figure>
+                        <img src="IMG/LOGO.jpg" alt="Logo Academia" width="250" height="250">
+                    </figure>
 
-        <ul>
-            <li>Shianne - Ingl&eacute;s</li>
-            <li>Flora - Franc&eacute;s</li>
-            <li>Hanna - Alem&aacute;n</li>
-            <li>Shasha - Chino</li> 
+                    <p class="background">Hace algunos años, en el corazón de una bulliciosa ciudad, se fundó una pequeña pero ambiciosa
+                        academia de idiomas llamada "Polyglot Academy". Su fundadora, la Sra. Cristina Gal&aacute;n,
+                        tenía una pasión inquebrantable por los idiomas y creía fervientemente en el poder de la
+                        comunicación para derribar barreras y unir a las personas de diferentes culturas y orígenes. La Academia Polyglot abrió sus puertas con un enfoque único y una visión clara: proporcionar una
+                            educación lingüística de alta calidad en un entorno acogedor y enriquecedor. Desde el principio,
+                            la academia se comprometió a ofrecer una amplia gama de idiomas, desde los más hablados y
+                            populares hasta los menos conocidos pero igualmente fascinantes.
+                        </p>
+                    
+                </div>
 
-    
+                <br><p>Con el tiempo, la reputación de la Academia Polyglot creció, atrayendo a estudiantes no solo de la
+                    ciudad, sino también de otras partes del país e incluso del extranjero. Sus profesores altamente
+                    calificados y apasionados, provenientes de diversas partes del mundo, ofrecían clases dinámicas y
+                    estimulantes que no solo enseñaban el idioma en sí, sino también la cultura y las tradiciones
+                    asociadas con cada idioma.</p><br>
+
+        <pre>
+        Peque&ntilde;a empresa dedicada a la ense&ntilde;anza y refuerzo de idiomas.
+        Academia que cuenta con los mejores profesores nativos, los cu&aacute;les 
+        durante las clases no hablan nada mas que el idioma que est&aacute;n impartiendo.</pre><br>
+
+        <p><u>Contamos con un total de 4 profesores:</u></p><br>
+        
+        <div class="imagen">
+        <ul class="lista-horizontal">
             
+            
+            <li id="ingles">
+                <img src="IMG/Profe1.png" alt="Profe1" width="220" height="200">
+                <p>Shianne Smith</p>
+                <p>Proferosa de ingles</p>
+            </li>
+
+            
+            <li id="frances">
+                <img src="IMG/Profe4.png" alt="Profe2" width="220" height="200">
+                <p>Flora Falcon</p>
+                <p>Profesora de Franc&eacute;s</p>
+            </li>
+            
+            <li id="aleman">
+                <img src="IMG/Profe3.png" alt="Profe3" width="220" height="200">
+                <p>Hanna Schmit</p>
+                <p>Profesora de Alem&aacute;n</p>
+            </li>
+
+            <li id="chino">
+                <img src="IMG/profe2.png" alt="Profe4" width="220" height="200">
+                <p>Shasha Jiang</p>
+                <p>Profesora de Chino</p>
+            </li>
+            
+        </ul>
+        </div>
+        <br>
+
+        <p>Nos puedes encontrar en:</p>
+        <div class="map">
+            
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12148.496158875216!2d-3.7033666!3d40.4282522!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42288bcd221e9f%3A0x88ad3c0576b92a23!2sC.%20de%20Eguilaz%2C%204%2C%20Chamber%C3%AD%2C%2028010%20Madrid%2C%20Espa%C3%B1a!5e0!3m2!1ses!2suk!4v1708634967168!5m2!1ses!2suk" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    
+        </div>
+
     </main>
     <footer>
+        <div class="footer-wrapper">
+            <div class="footer-section">
+                <div class="footer-media">
+                    <h4>Tambi&eacute;n puedes visitarnos en: </h4>
+                    <div class="social-icons">
+                        <figure>
+                            <img src="IMG/Instagram.png" alt="Logo Instagram" width="70" height="50">
+                            <figcaption>Instagram</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="IMG/tiktok.png" alt="Logo TikTok" width="70" height="60">
+                            <figcaption>TikTok</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <nav class="footer-nav">
+
+                    <div>
+                        <h4>POLYGLOT</h4>
+                        <ul>
+                            <li><a href="#">Aviso Legal</a></li>
+                            <li><a href="#"> Politica de Privacidad</a></li>
+                            <li><a href="#"> Politica de Cookies</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+
+
+                <div class="footer-copyright">
+                    <p>©2024 POLYGLOT.SL</p>
+                </div>
+
+            </div>
+        </div>
 
     </footer>
 
